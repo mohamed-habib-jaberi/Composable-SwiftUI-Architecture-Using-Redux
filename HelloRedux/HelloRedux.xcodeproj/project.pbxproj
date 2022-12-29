@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34111D5D250FFE8C009064B8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34111D5C250FFE8C009064B8 /* Store.swift */; };
+		34111D5E250FFE8C009064B8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34111D5C250FFE8C009064B8 /* Store.swift */; };
+		342978D3250FEC1500F20610 /* HelloReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C0250FEC1300F20610 /* HelloReduxApp.swift */; };
+		342978D4250FEC1500F20610 /* HelloReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C0250FEC1300F20610 /* HelloReduxApp.swift */; };
+		342978D5250FEC1500F20610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C1250FEC1300F20610 /* ContentView.swift */; };
+		342978D6250FEC1500F20610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C1250FEC1300F20610 /* ContentView.swift */; };
+		342978D7250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
+		342978D8250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34111D5C250FFE8C009064B8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		342978C0250FEC1300F20610 /* HelloReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloReduxApp.swift; sourceTree = "<group>"; };
+		342978C1250FEC1300F20610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		342978C2250FEC1500F20610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342978C7250FEC1500F20610 /* HelloRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978CA250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342978CF250FEC1500F20610 /* HelloRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978D1250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342978D2250FEC1500F20610 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342978C4250FEC1500F20610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342978CC250FEC1500F20610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34111D5B250FFE80009064B8 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				34111D5C250FFE8C009064B8 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		342978BA250FEC1200F20610 = {
+			isa = PBXGroup;
+			children = (
+				342978BF250FEC1300F20610 /* Shared */,
+				342978C9250FEC1500F20610 /* iOS */,
+				342978D0250FEC1500F20610 /* macOS */,
+				342978C8250FEC1500F20610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342978BF250FEC1300F20610 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				34111D5B250FFE80009064B8 /* Store */,
+				342978C0250FEC1300F20610 /* HelloReduxApp.swift */,
+				342978C1250FEC1300F20610 /* ContentView.swift */,
+				342978C2250FEC1500F20610 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		342978C8250FEC1500F20610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342978C7250FEC1500F20610 /* HelloRedux.app */,
+				342978CF250FEC1500F20610 /* HelloRedux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342978C9250FEC1500F20610 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				342978CA250FEC1500F20610 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		342978D0250FEC1500F20610 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				342978D1250FEC1500F20610 /* Info.plist */,
+				342978D2250FEC1500F20610 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342978C6250FEC1500F20610 /* HelloRedux (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (iOS)" */;
+			buildPhases = (
+				342978C3250FEC1500F20610 /* Sources */,
+				342978C4250FEC1500F20610 /* Frameworks */,
+				342978C5250FEC1500F20610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloRedux (iOS)";
+			productName = "HelloRedux (iOS)";
+			productReference = 342978C7250FEC1500F20610 /* HelloRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342978CE250FEC1500F20610 /* HelloRedux (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (macOS)" */;
+			buildPhases = (
+				342978CB250FEC1500F20610 /* Sources */,
+				342978CC250FEC1500F20610 /* Frameworks */,
+				342978CD250FEC1500F20610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloRedux (macOS)";
+			productName = "HelloRedux (macOS)";
+			productReference = 342978CF250FEC1500F20610 /* HelloRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342978BB250FEC1200F20610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "JABERI Mohamed";
+				TargetAttributes = {
+					342978C6250FEC1500F20610 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					342978CE250FEC1500F20610 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloRedux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342978BA250FEC1200F20610;
+			productRefGroup = 342978C8250FEC1500F20610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342978C6250FEC1500F20610 /* HelloRedux (iOS) */,
+				342978CE250FEC1500F20610 /* HelloRedux (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342978C5250FEC1500F20610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342978D7250FEC1500F20610 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342978CD250FEC1500F20610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342978D8250FEC1500F20610 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342978C3250FEC1500F20610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34111D5D250FFE8C009064B8 /* Store.swift in Sources */,
+				342978D5250FEC1500F20610 /* ContentView.swift in Sources */,
+				342978D3250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342978CB250FEC1500F20610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34111D5E250FFE8C009064B8 /* Store.swift in Sources */,
+				342978D6250FEC1500F20610 /* ContentView.swift in Sources */,
+				342978D4250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		342978D9250FEC1500F20610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342978DA250FEC1500F20610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		342978DC250FEC1500F20610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.HelloRedux;
+				PRODUCT_NAME = HelloRedux;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342978DD250FEC1500F20610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.HelloRedux;
+				PRODUCT_NAME = HelloRedux;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342978DF250FEC1500F20610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
+				PRODUCT_NAME = HelloRedux;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		342978E0250FEC1500F20610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
+				PRODUCT_NAME = HelloRedux;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342978D9250FEC1500F20610 /* Debug */,
+				342978DA250FEC1500F20610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342978DC250FEC1500F20610 /* Debug */,
+				342978DD250FEC1500F20610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342978DF250FEC1500F20610 /* Debug */,
+				342978E0250FEC1500F20610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342978BB250FEC1200F20610 /* Project object */;
+}
