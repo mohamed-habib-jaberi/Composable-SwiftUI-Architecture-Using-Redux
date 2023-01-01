@@ -15,6 +15,20 @@
 		342978D6250FEC1500F20610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C1250FEC1300F20610 /* ContentView.swift */; };
 		342978D7250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
 		342978D8250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
+		3444313B2512EBF900DB8DE8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444313A2512EBF900DB8DE8 /* AddTaskView.swift */; };
+		3444313C2512EBF900DB8DE8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444313A2512EBF900DB8DE8 /* AddTaskView.swift */; };
+		346D49BE25123D2400C27E0E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49BD25123D2400C27E0E /* Task.swift */; };
+		346D49BF25123D2400C27E0E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49BD25123D2400C27E0E /* Task.swift */; };
+		346D49C525123D8F00C27E0E /* TaskReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49C425123D8F00C27E0E /* TaskReducer.swift */; };
+		346D49C625123D8F00C27E0E /* TaskReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49C425123D8F00C27E0E /* TaskReducer.swift */; };
+		34D2F6F12511507C00117401 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F02511507C00117401 /* CounterReducer.swift */; };
+		34D2F6F22511507C00117401 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F02511507C00117401 /* CounterReducer.swift */; };
+		34D2F6F4251150DC00117401 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F3251150DC00117401 /* AppReducer.swift */; };
+		34D2F6F5251150DC00117401 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F3251150DC00117401 /* AppReducer.swift */; };
+		616A3A322961FF66004A6C8C /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A3A312961FF66004A6C8C /* Action.swift */; };
+		616A3A332961FF66004A6C8C /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A3A312961FF66004A6C8C /* Action.swift */; };
+		616A3A3629620074004A6C8C /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A3A3529620074004A6C8C /* ReduxState.swift */; };
+		616A3A3729620074004A6C8C /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A3A3529620074004A6C8C /* ReduxState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +36,18 @@
 		342978C0250FEC1300F20610 /* HelloReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloReduxApp.swift; sourceTree = "<group>"; };
 		342978C1250FEC1300F20610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342978C2250FEC1500F20610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		342978C7250FEC1500F20610 /* HelloRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978C7250FEC1500F20610 /* CombiningReducers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombiningReducers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342978CA250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342978CF250FEC1500F20610 /* HelloRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978CF250FEC1500F20610 /* CombiningReducers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombiningReducers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342978D1250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342978D2250FEC1500F20610 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3444313A2512EBF900DB8DE8 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		346D49BD25123D2400C27E0E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		346D49C425123D8F00C27E0E /* TaskReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReducer.swift; sourceTree = "<group>"; };
+		34D2F6F02511507C00117401 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		34D2F6F3251150DC00117401 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		616A3A312961FF66004A6C8C /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		616A3A3529620074004A6C8C /* ReduxState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +71,9 @@
 		34111D5B250FFE80009064B8 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				616A3A302961FF3F004A6C8C /* Actions */,
+				34D2F6EF2511504000117401 /* reducers */,
+				616A3A342962000F004A6C8C /* States */,
 				34111D5C250FFE8C009064B8 /* Store.swift */,
 			);
 			path = Store;
@@ -69,8 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				342978C0250FEC1300F20610 /* HelloReduxApp.swift */,
+				346D49BC25123D1100C27E0E /* Models */,
 				34111D5B250FFE80009064B8 /* Store */,
-				342978C1250FEC1300F20610 /* ContentView.swift */,
+				616A3A2F2961FA31004A6C8C /* Views */,
 				342978C2250FEC1500F20610 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -79,8 +104,8 @@
 		342978C8250FEC1500F20610 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342978C7250FEC1500F20610 /* HelloRedux.app */,
-				342978CF250FEC1500F20610 /* HelloRedux.app */,
+				342978C7250FEC1500F20610 /* CombiningReducers.app */,
+				342978CF250FEC1500F20610 /* CombiningReducers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,12 +127,55 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		346D49BC25123D1100C27E0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				346D49BD25123D2400C27E0E /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34D2F6EF2511504000117401 /* reducers */ = {
+			isa = PBXGroup;
+			children = (
+				34D2F6F3251150DC00117401 /* AppReducer.swift */,
+				34D2F6F02511507C00117401 /* CounterReducer.swift */,
+				346D49C425123D8F00C27E0E /* TaskReducer.swift */,
+			);
+			path = reducers;
+			sourceTree = "<group>";
+		};
+		616A3A2F2961FA31004A6C8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3444313A2512EBF900DB8DE8 /* AddTaskView.swift */,
+				342978C1250FEC1300F20610 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		616A3A302961FF3F004A6C8C /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				616A3A312961FF66004A6C8C /* Action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		616A3A342962000F004A6C8C /* States */ = {
+			isa = PBXGroup;
+			children = (
+				616A3A3529620074004A6C8C /* ReduxState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342978C6250FEC1500F20610 /* HelloRedux (iOS) */ = {
+		342978C6250FEC1500F20610 /* CombiningReducers (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (iOS)" */;
+			buildConfigurationList = 342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "CombiningReducers (iOS)" */;
 			buildPhases = (
 				342978C3250FEC1500F20610 /* Sources */,
 				342978C4250FEC1500F20610 /* Frameworks */,
@@ -117,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = "HelloRedux (iOS)";
+			name = "CombiningReducers (iOS)";
 			productName = "HelloRedux (iOS)";
-			productReference = 342978C7250FEC1500F20610 /* HelloRedux.app */;
+			productReference = 342978C7250FEC1500F20610 /* CombiningReducers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		342978CE250FEC1500F20610 /* HelloRedux (macOS) */ = {
+		342978CE250FEC1500F20610 /* CombiningReducers (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (macOS)" */;
+			buildConfigurationList = 342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "CombiningReducers (macOS)" */;
 			buildPhases = (
 				342978CB250FEC1500F20610 /* Sources */,
 				342978CC250FEC1500F20610 /* Frameworks */,
@@ -134,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = "HelloRedux (macOS)";
+			name = "CombiningReducers (macOS)";
 			productName = "HelloRedux (macOS)";
-			productReference = 342978CF250FEC1500F20610 /* HelloRedux.app */;
+			productReference = 342978CF250FEC1500F20610 /* CombiningReducers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +215,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = "JABERI Mohamed";
 				TargetAttributes = {
 					342978C6250FEC1500F20610 = {
 						CreatedOnToolsVersion = 12.0;
@@ -157,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloRedux" */;
+			buildConfigurationList = 342978BE250FEC1200F20610 /* Build configuration list for PBXProject "CombiningReducers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342978C6250FEC1500F20610 /* HelloRedux (iOS) */,
-				342978CE250FEC1500F20610 /* HelloRedux (macOS) */,
+				342978C6250FEC1500F20610 /* CombiningReducers (iOS) */,
+				342978CE250FEC1500F20610 /* CombiningReducers (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -201,8 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				34111D5D250FFE8C009064B8 /* Store.swift in Sources */,
+				616A3A322961FF66004A6C8C /* Action.swift in Sources */,
+				34D2F6F12511507C00117401 /* CounterReducer.swift in Sources */,
 				342978D5250FEC1500F20610 /* ContentView.swift in Sources */,
+				3444313B2512EBF900DB8DE8 /* AddTaskView.swift in Sources */,
 				342978D3250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
+				616A3A3629620074004A6C8C /* ReduxState.swift in Sources */,
+				346D49C525123D8F00C27E0E /* TaskReducer.swift in Sources */,
+				346D49BE25123D2400C27E0E /* Task.swift in Sources */,
+				34D2F6F4251150DC00117401 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +285,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				34111D5E250FFE8C009064B8 /* Store.swift in Sources */,
+				616A3A332961FF66004A6C8C /* Action.swift in Sources */,
+				34D2F6F22511507C00117401 /* CounterReducer.swift in Sources */,
 				342978D6250FEC1500F20610 /* ContentView.swift in Sources */,
+				3444313C2512EBF900DB8DE8 /* AddTaskView.swift in Sources */,
 				342978D4250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
+				616A3A3729620074004A6C8C /* ReduxState.swift in Sources */,
+				346D49C625123D8F00C27E0E /* TaskReducer.swift in Sources */,
+				346D49BF25123D2400C27E0E /* Task.swift in Sources */,
+				34D2F6F5251150DC00117401 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.HelloRedux;
-				PRODUCT_NAME = HelloRedux;
+				PRODUCT_NAME = CombiningReducers;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.HelloRedux;
-				PRODUCT_NAME = HelloRedux;
+				PRODUCT_NAME = CombiningReducers;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +474,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloRedux;
+				PRODUCT_NAME = CombiningReducers;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -417,7 +498,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloRedux;
+				PRODUCT_NAME = CombiningReducers;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -426,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloRedux" */ = {
+		342978BE250FEC1200F20610 /* Build configuration list for PBXProject "CombiningReducers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978D9250FEC1500F20610 /* Debug */,
@@ -435,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (iOS)" */ = {
+		342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "CombiningReducers (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978DC250FEC1500F20610 /* Debug */,
@@ -444,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloRedux (macOS)" */ = {
+		342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "CombiningReducers (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978DF250FEC1500F20610 /* Debug */,
