@@ -4,7 +4,7 @@ import Foundation
 
 protocol ReduxState { }
 
-// Global State
+// Global State or parent state
 struct AppState: ReduxState {
     var counterState = CounterState()
     var taskState = TaskState()
